@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myguide-api-service
-  namespace: myguide-api
+  name: website-cloth--service
+  namespace: default
 spec:
   selector:
-    app: myguide-api
+    app: website-cloth
   type: LoadBalancer
   ports:
     - protocol: TCP
